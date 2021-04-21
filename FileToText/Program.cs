@@ -134,7 +134,7 @@ namespace FileToText
                 }
 
             }
-
+            
 
             //Console.WriteLine(value.GetType().FullName);
             Console.ReadKey();
