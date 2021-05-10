@@ -13,7 +13,7 @@ namespace FileToText
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("File path ");
+            Console.WriteLine("File path fgvdfvddvs");
             Console.WriteLine("Enter file path: ");
             string path = Console.ReadLine();
             string strpath = System.IO.Path.GetExtension(path);
