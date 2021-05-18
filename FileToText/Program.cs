@@ -14,7 +14,7 @@ namespace FileToText
         static void Main(string[] args)
         {
             Console.WriteLine("File path as(C:\\Users\\Desktop\\fileConverson\\<FileName>.<FileExtension>)");
-            Console.WriteLine("Enter file path : ");
+            Console.WriteLine("Enter file path- ");
             string path = Console.ReadLine();
             string strpath = System.IO.Path.GetExtension(path);
 
