@@ -13,7 +13,7 @@ namespace FileToText
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("File path as(C:\\Users\\Desktop\\fileConverson\\fileName.pptx)");
+            Console.WriteLine("File path as(C:\\Users\\Desktop\\fileConverson\\<fileName>.<FileType>)");
             Console.WriteLine("Enter file path: ");
             string path = Console.ReadLine();
             string strpath = System.IO.Path.GetExtension(path);
